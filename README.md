@@ -4,6 +4,7 @@ XolphinApiDotNet is a client library targeting .NET 4.5 and above that provides 
 There are 2 ways to use XolphinApiDotNet:
 - install-package XolphinApiDotNet (via Nuget)
 - or adding XolphinApiDotNet library reference into your project
+
 ## Usage
 ### Client initialization
 ```
