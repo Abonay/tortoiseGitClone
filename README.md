@@ -10,6 +10,11 @@ There are 2 ways to use XolphinApiDotNet:
 ```
 var client = new Client("<username>", "<password>");
 ```
+### Client conventions
+Most of the Requests classes have ability to assign the additional parameters of the request using 2 ways:
+- fluent style functions `1`
+- property assignment `2`
+
 ### Request operations
 #### Getting list of requests
 ```
