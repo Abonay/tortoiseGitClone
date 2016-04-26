@@ -151,3 +151,8 @@ foreach (var product in products)
 var product = client.Support.Product(1234);
 Console.WriteLine(product.Name);
 ```
+## Credits
+Copyright (c) 2016 Andriy Zdrenyk (@TBAPI-0KA)
+
+Thanks to the following contributors:
+- Andrey Smarsh (@Abonay)
