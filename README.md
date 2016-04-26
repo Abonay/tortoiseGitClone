@@ -11,9 +11,14 @@ There are 2 ways to use XolphinApiDotNet:
 var client = new Client("<username>", "<password>");
 ```
 ### Client conventions
-Most of the Requests classes have ability to assign the additional parameters of the request using 2 ways:
-- fluent style functions `1`
-- property assignment `2`
+Most of the Requests classes have ability to assign the additional parameters of the request with 2 ways:
+```
+var reissue = new XolphinApiDotNet.Requests.Reissue(<csr_string>, DCVType.Email);
+// 1. fluent style functions
+reissue.SetApproverEmail("email@domain.com");
+// 2. property assignment
+reissue.ApproverEmail = "email@domain.com";
+```
 
 ### Request operations
 #### Getting list of requests
