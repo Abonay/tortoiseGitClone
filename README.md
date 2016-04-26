@@ -1,7 +1,9 @@
 # Xolphin API wrapper for C&#35;
-The XolphinApiDotNet library just what you need to dealing with [Xolphin REST API](https://api.xolphin.com/docs/v1#/) within your custom software.
+XolphinApiDotNet is a client library targeting .NET 4.5 and above that provides an easy way to interact with the [Xolphin REST API](https://api.xolphin.com/docs/v1#/).
 ## Library installation
-Library can be installed thru adding XolphinApiDotNet reference into your project.
+There are 2 ways to use XolphinApiDotNet:
+- install-package XolphinApiDotNet (via Nuget)
+- or adding XolphinApiDotNet library reference into your project
 ## Usage
 ### Client initialization
 ```
