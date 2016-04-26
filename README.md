@@ -10,7 +10,7 @@ There are 2 ways to use XolphinApiDotNet:
 ```
 var client = new Client("<username>", "<password>");
 ```
-### Client conventions
+### Calling conventions
 Most of the Requests classes have ability to assign the additional parameters of the request with 2 ways:
 ```
 var reissue = new XolphinApiDotNet.Requests.Reissue(<csr_string>, DCVType.Email);
