@@ -65,7 +65,7 @@ Console.WriteLine(responseRequest.Id);
 #### Upload new request document
 ```
 // POST /requests/{id}/upload-document
-var uploadResponse = client.Request.Upload(1234, new UploadDocument(File.ReadAllBytes("document.pdf")).SetDescription("<description>"));
+var uploadResponse = client.Request.Upload(1234, new UploadDocument("<file_name>", File.ReadAllBytes("document.pdf")).SetDescription("<description>"));
 Console.WriteLine(uploadResponse.Message);
 ```
 #### Retry DCV
